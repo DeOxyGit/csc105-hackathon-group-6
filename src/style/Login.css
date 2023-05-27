@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body_login{
+    display: flex;
+    justify-content: center;
+    background-image: url(/src/image/Authimage.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-logo{
+    color:black;
+}
+.container-login{
+    position: relative;
+    top: 20%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+   
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.login-form{
+    height: 60vh;
+    width: 20vw;
+    border-radius: 20px;
+   padding-top:60px
+}
+.logo{
+    font-size: 25px;
+    display: flex;
+    justify-content: center ;
+}
+.loginText{
+    font-size: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center ;
+}
+.inputRounded .MuiOutlinedInput-root {
+    border-radius: 20px;
+
+}
+
+
+    
+
