@@ -6,28 +6,31 @@
 .body-register {
     display: flex;
     justify-content: center;
-    background-image: url(/src/image/Authimage.jpg);
+    background-image: url("public/image/Authimage.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 .header-logo{
+    margin-top: 20%;
     color:black;
 }
 div .container-register{
     position: relative;
-    top: 15%;
+    top: 10%;
     display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: white;;
-    height: 70vh;
+    height: 80vh;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 35vw;
+    /* width: 30vw; */
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(255 255 255 / 0.6);
+    backdrop-filter: blur(20px);
     
 }
 form{
@@ -37,10 +40,11 @@ form{
     row-gap: 15px;
 }
 .register-form{
-    height: 70vh;
-    width: 25vw;
+    
+    height: 80vh;
+    /* width: 25vw; */
     border-radius: 20px;
-    padding-top:60px
+    padding-top:10px
 }
 .logo{
     font-size: 25px;
@@ -50,6 +54,13 @@ form{
 }
 .inputRounded .MuiOutlinedInput-root {
     border-radius: 20px;
+    /* width: 20vw; */
+}
+.register-btn a{
+    color: red;
+}
+h2{
+    color: #38B6FF;
 }
 
 

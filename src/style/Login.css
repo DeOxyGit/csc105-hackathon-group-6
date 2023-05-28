@@ -6,7 +6,7 @@
 .body_login{
     display: flex;
     justify-content: center;
-    background-image: url(/src/image/Authimage.jpg);
+    background-image: url("public/image/Authimage.jpg");
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -17,29 +17,29 @@
 }
 .container-login{
     position: relative;
-    top: 20%;
+    top: 15%;
     display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: white;
-   
-    height: 60vh;
+    height: 70vh;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 25vw;
+    width: 10vw;
     margin-left: auto;
     margin-right: auto;
-    
+    background-color: rgb(255 255 255 / 0.6);
+    backdrop-filter: blur(20px);
 }
 form{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 15x;
 }
 .login-form{
-    height: 60vh;
+    height: 100vh;
     width: 20vw;
     border-radius: 20px;
    padding-top:60px
@@ -58,6 +58,9 @@ form{
 .inputRounded .MuiOutlinedInput-root {
     border-radius: 20px;
 
+}
+.login-btn a{
+    color: red;
 }
 
 

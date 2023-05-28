@@ -1,4 +1,4 @@
-import mysql from 'mysql2';
+import mysql from 'mysql';
 
 const db = mysql.createConnection({
     host: "db.cshack.site",

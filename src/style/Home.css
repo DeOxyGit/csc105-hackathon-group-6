@@ -6,29 +6,44 @@
 .containerHome{
     display:flex;
     justify-content: center;
+    width: 100vw;
 }
 /* left  */
 .leftFeed{
     margin-top: 20px;
     padding:2px;
-    width:80px;
+    width:100px;
     text-align: center;
+    align-items: center;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 .leftFeed p {
-    background-color: #002366;
-    color:white;
+    /* background-color: #002366; */
+    color:#002366;
     font-weight: bold;
+    text-align: center;
     border-radius: 20px;
-    width: 80px;
+    width: 100px;
     font-size: 20px;
+    align-self: flex-end;
 }
 .leftSideHome{
     display:flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    /* gap: 10px; */
+    height: fit-content;
     width: 25vw;
-    height: 80vh;
+    /* flex: 1; */
+}
+.addButton{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
 }
 /* center */
 .centerHome{
@@ -37,11 +52,17 @@
     align-items: center;
     width: 50vw;
     height: 80vh;
+    flex:2
 }
 .rightSideHome{
-    width:25vw;
+    flex: 1;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .welcomeTextHome{
     display: flex;
     flex-direction: row;
@@ -53,14 +74,18 @@
     font-size:25px;
 }
 
-.rightSideHome button{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    min-width: auto;
-    padding: 0;
-    background-color: #002366;
+.wrapAddpost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
+
+
+
+
 
 
 
